@@ -61,7 +61,7 @@ The current implementation focuses on clean separation of concerns and safe file
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/reformatory.git
+git clone https://github.com/mudassar-saeed/reformatory.git
 cd reformatory
 ```
 
