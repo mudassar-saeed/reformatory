@@ -1,0 +1,92 @@
+# ==============================
+# Python
+# ==============================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+.env/
+.env
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ==============================
+# Flask
+# ==============================
+
+instance/
+*.db
+*.sqlite3
+
+# Uploaded & Generated Files
+uploads/
+outputs/
+temp/
+tmp/
+
+# Logs
+*.log
+logs/
+
+# ==============================
+# OS Files
+# ==============================
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==============================
+# IDE / Editors
+# ==============================
+
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ==============================
+# Node (Future frontend expansion)
+# ==============================
+
+node_modules/
+package-lock.json
+yarn.lock
+npm-debug.log*
+
+# ==============================
+# Docker (Future use)
+# ==============================
+
+docker-compose.override.yml
+
+# ==============================
+# Media Conversion Temp Files
+# ==============================
+
+*.mp4
+*.mp3
+*.wav
+*.avi
+*.mov
+*.mkv
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.pdf
+*.docx
+
+# ==============================
+# Cache & Temp
+# ==============================
+
+.cache/
+pytest_cache/
