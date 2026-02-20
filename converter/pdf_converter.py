@@ -23,3 +23,4 @@ def convert_pdf_to_word(input_path: str, output_path: str) -> None:
 
     except Exception as e:
         raise Exception(f"PDF to Word conversion failed: {str(e)}")
+
