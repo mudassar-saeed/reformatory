@@ -3,7 +3,7 @@ import uuid
 from io import BytesIO
 from flask import Flask, render_template, request, send_file, redirect, flash
 from config import Config
-from converter.converter import convert_pdf_to_word
+from converter.pdf_converter import convert_pdf_to_word
 
 
 # -------------------------------
