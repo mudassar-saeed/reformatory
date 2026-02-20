@@ -39,7 +39,7 @@ ReFormatory/
 ├── config.py
 ├── requirements.txt
 ├── converter/
-│   └── converter.py
+│   └── pdf_converter.py
 │
 ├── templates/
 │   └── index.html
