@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block title %}ReFormatory – Home{% endblock %}
+
+{% block content %}
+
+<div class="flex-grow flex items-center justify-center min-h-[80vh] px-4">
+    <div class="text-center mb-10">
+        <h1 class="text-4xl font-bold text-gray-800 mb-3">Document Converter</h1>
+        <p class="text-gray-500 text-lg">Fast, free, and easy file conversions</p>
+
+        <div class="grid md:grid-cols-2 gap-8 mt-10 max-w-2xl mx-auto">
+
+            <!-- PDF to Word -->
+            <a href="/pdf_to_word"
+               class="bg-white shadow-xl p-8 rounded-xl hover:scale-105 hover:shadow-2xl transition-all duration-300 flex flex-col items-center text-center">
+                <div class="w-14 h-14 bg-indigo-100 rounded-full flex items-center justify-center mb-4">
+                    <svg class="w-7 h-7 text-indigo-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                              d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414A1 1 0 0120 9.414V19a2 2 0 01-2 2z"/>
+                    </svg>
+                </div>
+                <h2 class="text-xl font-semibold text-gray-800 mb-2">PDF → Word</h2>
+                <p class="text-gray-500 text-sm">Convert PDF files into editable Word documents.</p>
+            </a>
+
+            <!-- Word to PDF -->
+            <a href="/word_to_pdf"
+               class="bg-white shadow-xl p-8 rounded-xl hover:scale-105 hover:shadow-2xl transition-all duration-300 flex flex-col items-center text-center">
+                <div class="w-14 h-14 bg-rose-100 rounded-full flex items-center justify-center mb-4">
+                    <svg class="w-7 h-7 text-rose-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                              d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"/>
+                    </svg>
+                </div>
+                <h2 class="text-xl font-semibold text-gray-800 mb-2">Word → PDF</h2>
+                <p class="text-gray-500 text-sm">Convert Word documents into polished PDF files.</p>
+            </a>
+
+        </div>
+    </div>
+</div>
+
+{% endblock %}
